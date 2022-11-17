@@ -210,4 +210,5 @@ wilder.set_option('renderer', wilder.renderer_mux({
   }),
 }))
 
-
+-- Abbreviations
+vim.cmd('luafile $HOME/.config/nvim/abbreviations/abbreviations.lua')
