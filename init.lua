@@ -18,6 +18,7 @@ opt.wildmenu = true
 opt.wildoptions = "pum"
 opt.wildignorecase = true
 opt.clipboard = "unnamedplus"
+opt.laststatus=0
 
 --- Auto-commands
 local augroup = vim.api.nvim_create_augroup   -- Create/get autocommand group
